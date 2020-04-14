@@ -1,0 +1,132 @@
+body{
+     margin:0px;
+     padding:0px;
+     background-color: deepskyblue;
+     background-image: url('../asset/img/bg.jpg');
+
+}
+
+#box{
+    height: 200px;
+    width: 1000px;
+    background-color:black;
+    border-radius: 15px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-decoration: none;
+
+}
+
+#main{
+    height:400px;
+    width: 450px;
+    background-color:rgba(250, 249, 248, 0.993);
+    border-radius: 5px;
+    position:absolute;
+    top: 50%;
+    left:70%;
+    transform:translate(-50%,-50%);
+    z-index: 99;
+    text-decoration: none;
+
+}
+
+#loginform ,#siginupform{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    z-index: 999;
+    text-decoration: none;
+}
+
+#siginupform{
+    top: 45%;
+    left: 75%;
+    visibility: hidden;
+
+
+}
+
+#loginform h1 ,#siginupform h1{
+    font-family: arial;
+    font-size: 25px;
+    color:deepskyblue;
+}
+
+#loginform input ,#siginupform input{
+    height: 40px;
+    width: 300px;
+    border: 0px;
+    outline: none;
+    border-bottom: 1px solid;
+    margin: 5px;
+    text-decoration: none;
+
+}
+
+#loginform button ,#siginupform button{
+    height: 35px;
+    width: 130px;
+    background-color: deepskyblue;
+    font-family: monospace;
+    font-size: 16px;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top:15px;
+    margin-left: 175px;
+    text-decoration: none;
+
+}
+
+#login_btn ,#siginup_btn{
+    height: 35px ;
+    width: 120px ;
+    background-color:transparent;
+    color:white;
+    border: 1px solid white;
+    border-radius: 5px;
+    outline: none;
+    position: absolute;
+    left: 75%;
+    top: 65%;
+    transform: translate(-50%,-50%); 
+    transition: all .5s;
+    text-decoration: none;
+
+}
+
+#siginup_btn{
+    left: 25%;
+
+}
+
+#login_btn:hover ,#siginup_btn:hover{
+    background-color: white;
+    color: rgb(7, 50, 70);
+    cursor: pointer;
+
+}
+#login_msg ,#siginup_msg{
+    font-family: arial;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+}
+
+#siginup_msg{
+    left: 25%;
+
+}
+a{
+    text-decoration: none;
+
+}

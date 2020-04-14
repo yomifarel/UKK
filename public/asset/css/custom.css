@@ -1,0 +1,12 @@
+/* your styles go here */
+#buttona{
+    color:#fff;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 80px;
+    padding: 13px 50px;
+    border-radius: 3px;
+    font: bold 14px/1 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    background-color:#F05283;
+}
